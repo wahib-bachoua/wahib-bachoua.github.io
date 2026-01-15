@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f3e64255.css",
-    "main.js": "/portfolio/static/js/main.5369bacc.js",
+    "main.css": "/portfolio/static/css/main.f6f0a892.css",
+    "main.js": "/portfolio/static/js/main.e491990a.js",
     "static/media/leaf.png": "/portfolio/static/media/leaf.ff2616f664c8c0ceab91.png",
     "static/media/emotion.png": "/portfolio/static/media/emotion.eabfc16e7a146ab15778.png",
     "static/media/suicide.png": "/portfolio/static/media/suicide.9c86cd7138a398c45fa5.png",
@@ -40,11 +40,11 @@
     "static/media/MUI.svg": "/portfolio/static/media/MUI.12e2df83693fe483729e8f9f76d4bee3.svg",
     "static/media/Haskell.svg": "/portfolio/static/media/Haskell.e4b7b5b34e24fee7cd7a2a1f75b9550b.svg",
     "static/media/Firebase.svg": "/portfolio/static/media/Firebase.c5e643a18f060de1d39eda5908abbb5f.svg",
-    "main.f3e64255.css.map": "/portfolio/static/css/main.f3e64255.css.map",
-    "main.5369bacc.js.map": "/portfolio/static/js/main.5369bacc.js.map"
+    "main.f6f0a892.css.map": "/portfolio/static/css/main.f6f0a892.css.map",
+    "main.e491990a.js.map": "/portfolio/static/js/main.e491990a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3e64255.css",
-    "static/js/main.5369bacc.js"
+    "static/css/main.f6f0a892.css",
+    "static/js/main.e491990a.js"
   ]
 }
