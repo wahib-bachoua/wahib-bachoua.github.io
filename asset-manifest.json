@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.9cdf6c4c.css",
-    "main.js": "/static/js/main.4d50621a.js",
+    "main.js": "/static/js/main.bbb4cb61.js",
     "static/media/landing page.png": "/static/media/landing page.0c7475c2efecede942c0.png",
     "static/media/Devsecops.png": "/static/media/Devsecops.2b3e90adb463ccf7f1e5.png",
+    "static/media/CV_wahib_bachoua.pdf": "/static/media/CV_wahib_bachoua.0d1ee6fc295ac9399853.pdf",
     "static/media/SupportTicket.png": "/static/media/SupportTicket.3725001fd0ab34c445b9.png",
     "static/media/avatar.png": "/static/media/avatar.0e5c875c6d16f876727e.png",
     "static/media/gestion des événements.png": "/static/media/gestion des événements.a216d888cf0d08165137.png",
@@ -14,7 +15,6 @@
     "static/media/lfs169-introduction-to-gitops.png": "/static/media/lfs169-introduction-to-gitops.f76aae7e95f97fca0e25.png",
     "static/media/logo.png": "/static/media/logo.27114e92f75187a83ad2.png",
     "static/media/Python_Essentials_1_certificate.png": "/static/media/Python_Essentials_1_certificate.bcc29906e1779dfac834.png",
-    "static/media/wahib_bachoua__pfe_informatique.pdf": "/static/media/wahib_bachoua__pfe_informatique.686f903165cb4543ef04.pdf",
     "static/media/home-main.svg": "/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/Terraform.png": "/static/media/Terraform.97f7ec3d5b34a19185d6.png",
@@ -45,10 +45,10 @@
     "static/media/Django.svg": "/static/media/Django.cce1896df0408704bc5e85c47654f464.svg",
     "static/media/Angular.svg": "/static/media/Angular.f1538c566efde73b8aaf2142712338ec.svg",
     "main.9cdf6c4c.css.map": "/static/css/main.9cdf6c4c.css.map",
-    "main.4d50621a.js.map": "/static/js/main.4d50621a.js.map"
+    "main.bbb4cb61.js.map": "/static/js/main.bbb4cb61.js.map"
   },
   "entrypoints": [
     "static/css/main.9cdf6c4c.css",
-    "static/js/main.4d50621a.js"
+    "static/js/main.bbb4cb61.js"
   ]
 }
