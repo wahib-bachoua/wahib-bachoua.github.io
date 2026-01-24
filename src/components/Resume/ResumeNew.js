@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Soumyajit_Behera.pdf";
+import pdf from "../../Assets/../Assets/CV_wahib_bachoua.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -20,15 +20,9 @@ function ResumeNew() {
       <Container fluid className="resume-section">
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
+           <h1 className="project-heading">
+          My <strong className="purple">Resume </strong>
+        </h1>
         </Row>
 
         <Row className="resume">

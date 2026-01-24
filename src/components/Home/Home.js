@@ -3,15 +3,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
+import About from "../About/About";
+import Projects from "../Projects/Projects";
 import Type from "./Type";
-import Techstack from "../About/Techstack";
-import Github from "../About/Github";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiOutlineWhatsApp, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Achivements from "../Achivements/Achivements";
+import ResumeNew from "../Resume/ResumeNew";
 
 function Home() {
   return (
@@ -30,7 +28,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> WAHIB BACHOUA </strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -50,7 +48,10 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
-
+      <About />
+      <Projects />
+      <Achivements />
+      <ResumeNew />
       <Container>
         <Row style={{ paddingTop: "50px", paddingBottom: "80px" }}>
           <Col md={12} className="home-about-social">
@@ -61,7 +62,7 @@ function Home() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/wahib-bachoua"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -71,17 +72,17 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://wa.me/+21627312481"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <AiOutlineWhatsApp />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/wahib-bachoua/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -91,12 +92,12 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=wahibbachoua95@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <AiOutlineMail />
                 </a>
               </li>
             </ul>

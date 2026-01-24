@@ -2,12 +2,40 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Devsecops from "../../Assets/Projects/Devsecops.png";
+import CoworkingSpace from "../../Assets/Projects/CoworkingSpace.jpg";
+import MovieApp from "../../Assets/Projects/MovieApp.png";
+import CompetitorMonitor from "../../Assets/Projects/landing page.png";
+import GestionEvenements from "../../Assets/Projects/gestion des événements.png";
+import SupportTicket from "../../Assets/Projects/SupportTicket.png";
+import portfolio from "../../Assets/Projects/portfolio.png";
+
+import Django from "../../Assets/TechIcons/Django.svg";
+import Node from "../../Assets/TechIcons/Node.svg";
+import Mongo from "../../Assets/TechIcons/Mongo.svg";
+import Angular from "../../Assets/TechIcons/Angular.svg";
+import ReactIcon from "../../Assets/TechIcons/React.svg";
+import Docker from "../../Assets/TechIcons/Docker.svg";
+import Kubernetes from "../../Assets/TechIcons/Kubernetes.svg";
+import Prometheus from "../../Assets/TechIcons/Prometheus.svg";
+import Grafana from "../../Assets/TechIcons/Grafana.svg";
+import Trivy from "../../Assets/TechIcons/Trivy.png";
+import Sonarcube from "../../Assets/TechIcons/sonarcube.png";
+import OWASP from "../../Assets/TechIcons/OWASP.png";
+import NGINX from "../../Assets/TechIcons/NGINX.svg";
+import GitHubActions from "../../Assets/TechIcons/GitHub Actions.svg";
+import Selenium from "../../Assets/TechIcons/Selenium.svg";
+import Ollama from "../../Assets/TechIcons/ollama.png";
+import PostgresSQL from "../../Assets/TechIcons/PostgresSQL.svg";
+import Express from "../../Assets/TechIcons/express-js.png";
+import Swagger from "../../Assets/TechIcons/Swagger.svg"; 
+import Jasmine from "../../Assets/TechIcons/Jasmine.svg";
+import Karma from "../../Assets/TechIcons/Karma.svg";
+import MySQL from "../../Assets/TechIcons/MySQL.svg";
+import SpringBoot from "../../Assets/TechIcons/Spring.svg";
+import Bootstrap from "../../Assets/TechIcons/Bootstrap.svg";
+import GraphQL from "../../Assets/TechIcons/GraphQL.svg";
+import Pytest from "../../Assets/TechIcons/pytest.svg";
 
 function Projects() {
   return (
@@ -23,68 +51,85 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              imgPath={CompetitorMonitor}
+              title="Competitor Monitor System"
+              description="This project is a web-based application to monitor competitor websites for key changes like price updates and new product launches. The system uses intelligent web scraping coupled with a local Large Language Model (LLM) to automatically extract and analyze product data."
+              ghLink="https://github.com/wahib-bachoua/Django-competitor-monitor-system.git"
+              demoLink=""
+              techStack={[Django, Selenium, Ollama,PostgresSQL, Pytest,Bootstrap]}
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              imgPath={SupportTicket}
+              title="web application for managing support tickets"
+              description="This project is an application developed in NodeJS with ExpressJS, Angular and MongoDB, designed for managing support tickets in a school. It allows teachers to create tickets to request help on various topics, which are automatically assigned to specialized agents, with real-time notifications and status tracking."
+              ghLink="https://github.com/wahib-bachoua/Support-Ticket-Management-Frontend.git"
+              demoLink=""
+              techStack={[Node, Express, Angular, Swagger, Jasmine, Karma, Mongo]}
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Devsecops}
+              title="Design and Implementation of a Secure CI/CD Pipeline"
+              description="This project presents the design and implementation of a complete CI/CD pipeline for a full-stack web application (Angular/Node.js). The project, carried out using the Agile SCRUM methodology, covers continuous integration with GitHub Actions, Docker containerization, deployment on Kubernetes (Minikube), and the implementation of a monitoring system with Prometheus and Grafana. Automated testing, code quality analysis (SonarCloud), and security scans (Trivy, OWASP) ensure reliable and secure releases."
+              ghLink="https://github.com/wahib-bachoua/K8s-Deployments.git"
+              demoLink=""
+              techStack={[
+                NGINX,
+                Docker,
+                GitHubActions,
+                Trivy,
+                Sonarcube,
+                OWASP,
+                Kubernetes,
+                Prometheus,
+                Grafana,
+              ]}
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MovieApp}
+              title="Movies-App"
+              description="Movies-App is a streaming platform built with Angular 19 and spring boot. It allows users to browse and watch movies with an intuitive interface, the backend API is designed to manage a movie collection, with the ability to add, modify, delete, and retrieve movies. Each movie can be associated with an image (poster) and a trailer URL. The project follows the MVC architecture with Spring Boot, JPA/Hibernate, and a relational database."
+              ghLink="https://github.com/wahib-bachoua/MoviesApp.git"
+              demoLink=""
+              techStack={[Angular, Node, Express, Bootstrap, MySQL]}
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              imgPath={CoworkingSpace}
+              title="Smart Booking System for Coworking Spaces"
+              description="This project is a complete GraphQL API for managing coworking space bookings, developed with Node.js, Apollo Server and MongoDB, enabling dynamic booking management with rigorous real-time availability validation. It allows users to create, modify, and cancel bookings while ensuring no scheduling conflicts occur."
+              ghLink="https://github.com/wahib-bachoua/GraphQL-smart-reservation-frontend.git"
+              demoLink=""
+              techStack={[Node, Express, GraphQL, Angular, Bootstrap, Mongo]}
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              imgPath={GestionEvenements}
+              title="Real-Time Event Management Web Application"
+              description="This app allows users to create, join, and participate in real-time community events. It's ideal for local events, workshops, interest groups, or even virtual meetings. The goal is to provide an interactive space where participants can exchange ideas, follow event updates, and interact via live chat."
+              ghLink="https://github.com/wahib-bachoua/gestionEvenements.git"
+              demoLink=""
+              techStack={[SpringBoot, Angular, Bootstrap, MySQL]}
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              imgPath={portfolio}
+              title="My Portfolio"
+              description="My personal portfolio which features some of my github projects as well as my resume and technical skills."
+              ghLink="https://github.com/wahib-bachoua/portfolio.git"
+              techStack={[ReactIcon, Node, Express]}
             />
           </Col>
         </Row>
