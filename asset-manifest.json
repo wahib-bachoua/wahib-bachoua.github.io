@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.9cdf6c4c.css",
-    "main.js": "/static/js/main.a2ac49c4.js",
+    "main.js": "/static/js/main.ac888064.js",
     "static/media/landing page.png": "/static/media/landing page.0c7475c2efecede942c0.png",
-    "static/media/CV_wahib_bachoua.pdf": "/static/media/CV_wahib_bachoua.77bd09c7d7ff0ce84c81.pdf",
+    "static/media/cv wahib bachoua.pdf": "/static/media/cv wahib bachoua.f0f4eaf1f62b644c6266.pdf",
     "static/media/Devsecops.png": "/static/media/Devsecops.2b3e90adb463ccf7f1e5.png",
     "static/media/SupportTicket.png": "/static/media/SupportTicket.3725001fd0ab34c445b9.png",
     "static/media/gestion des événements.png": "/static/media/gestion des événements.a216d888cf0d08165137.png",
@@ -55,12 +55,11 @@
     "static/media/Django.svg": "/static/media/Django.cce1896df0408704bc5e85c47654f464.svg",
     "static/media/pytest.svg": "/static/media/pytest.9f9e1bb89bf1947bc7949cb585c225f5.svg",
     "static/media/Angular.svg": "/static/media/Angular.f1538c566efde73b8aaf2142712338ec.svg",
-    "static/media/Karma.svg": "/static/media/Karma.f6bacd46c3abe4771a539e1d699c078b.svg",
     "main.9cdf6c4c.css.map": "/static/css/main.9cdf6c4c.css.map",
-    "main.a2ac49c4.js.map": "/static/js/main.a2ac49c4.js.map"
+    "main.ac888064.js.map": "/static/js/main.ac888064.js.map"
   },
   "entrypoints": [
     "static/css/main.9cdf6c4c.css",
-    "static/js/main.a2ac49c4.js"
+    "static/js/main.ac888064.js"
   ]
 }
