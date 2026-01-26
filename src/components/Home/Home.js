@@ -9,7 +9,7 @@ import Type from "./Type";
 import { AiFillGithub, AiOutlineWhatsApp, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Achivements from "../Achivements/Achivements";
-import ResumeNew from "../Resume/ResumeNew";
+//import ResumeNew from "../Resume/ResumeNew";
 
 function Home() {
   return (
@@ -51,7 +51,6 @@ function Home() {
       <About />
       <Projects />
       <Achivements />
-      <ResumeNew />
       <Container>
         <Row style={{ paddingTop: "50px", paddingBottom: "80px" }}>
           <Col md={12} className="home-about-social">

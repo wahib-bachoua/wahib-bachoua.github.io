@@ -30,7 +30,7 @@ import PostgresSQL from "../../Assets/TechIcons/PostgresSQL.svg";
 import Express from "../../Assets/TechIcons/express-js.png";
 import Swagger from "../../Assets/TechIcons/Swagger.svg"; 
 import Jasmine from "../../Assets/TechIcons/Jasmine.svg";
-import Karma from "../../Assets/TechIcons/Karma.svg";
+//import Karma from "../../Assets/TechIcons/Karma.svg";
 import MySQL from "../../Assets/TechIcons/MySQL.svg";
 import SpringBoot from "../../Assets/TechIcons/Spring.svg";
 import Bootstrap from "../../Assets/TechIcons/Bootstrap.svg";
@@ -56,7 +56,7 @@ function Projects() {
               description="This project is a web-based application to monitor competitor websites for key changes like price updates and new product launches. The system uses intelligent web scraping coupled with a local Large Language Model (LLM) to automatically extract and analyze product data."
               ghLink="https://github.com/wahib-bachoua/Django-competitor-monitor-system.git"
               demoLink=""
-              techStack={[Django, Selenium, Ollama,PostgresSQL, Pytest,Bootstrap]}
+              techStack={[Django, Selenium, Ollama, PostgresSQL, Bootstrap, Pytest]}
             />
           </Col>
 
@@ -67,7 +67,7 @@ function Projects() {
               description="This project is an application developed in NodeJS with ExpressJS, Angular and MongoDB, designed for managing support tickets in a school. It allows teachers to create tickets to request help on various topics, which are automatically assigned to specialized agents, with real-time notifications and status tracking."
               ghLink="https://github.com/wahib-bachoua/Support-Ticket-Management-Frontend.git"
               demoLink=""
-              techStack={[Node, Express, Angular, Swagger, Jasmine, Karma, Mongo]}
+              techStack={[Node, Express, Angular, Mongo, Swagger, Jasmine ]}
             />
           </Col>
           <Col md={4} className="project-card">
@@ -97,7 +97,7 @@ function Projects() {
               description="Movies-App is a streaming platform built with Angular 19 and spring boot. It allows users to browse and watch movies with an intuitive interface, the backend API is designed to manage a movie collection, with the ability to add, modify, delete, and retrieve movies. Each movie can be associated with an image (poster) and a trailer URL. The project follows the MVC architecture with Spring Boot, JPA/Hibernate, and a relational database."
               ghLink="https://github.com/wahib-bachoua/MoviesApp.git"
               demoLink=""
-              techStack={[Angular, Node, Express, Bootstrap, MySQL]}
+              techStack={[ Node, Express, Angular, Bootstrap, MySQL]}
             />
           </Col>
 
