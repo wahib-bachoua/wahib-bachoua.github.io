@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9cdf6c4c.css",
-    "main.js": "/static/js/main.512d8120.js",
+    "main.css": "/static/css/main.ccf1ce44.css",
+    "main.js": "/static/js/main.32598ea3.js",
     "static/media/landing page.png": "/static/media/landing page.0c7475c2efecede942c0.png",
     "static/media/Devsecops.png": "/static/media/Devsecops.2002fb0f7ffe311f24c1.png",
     "static/media/cv wahib bachoua.pdf": "/static/media/cv wahib bachoua.f0f4eaf1f62b644c6266.pdf",
@@ -39,7 +39,6 @@
     "static/media/Bootstrap.svg": "/static/media/Bootstrap.1f1d6bd3811dece9cf8ed729700cf21e.svg",
     "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
     "static/media/Grafana.svg": "/static/media/Grafana.c56f9e276842ca87adee696fec6ca810.svg",
-    "static/media/Java.svg": "/static/media/Java.edcb9f2574179c38ce343ae59e91b5bc.svg",
     "static/media/Node.svg": "/static/media/Node.066ea1a40c1c8f42c3facd6c4128111d.svg",
     "static/media/GraphQL.svg": "/static/media/GraphQL.14267f2ddb307badb38d0804e8151bcd.svg",
     "index.html": "/index.html",
@@ -55,11 +54,11 @@
     "static/media/Django.svg": "/static/media/Django.cce1896df0408704bc5e85c47654f464.svg",
     "static/media/pytest.svg": "/static/media/pytest.9f9e1bb89bf1947bc7949cb585c225f5.svg",
     "static/media/Angular.svg": "/static/media/Angular.f1538c566efde73b8aaf2142712338ec.svg",
-    "main.9cdf6c4c.css.map": "/static/css/main.9cdf6c4c.css.map",
-    "main.512d8120.js.map": "/static/js/main.512d8120.js.map"
+    "main.ccf1ce44.css.map": "/static/css/main.ccf1ce44.css.map",
+    "main.32598ea3.js.map": "/static/js/main.32598ea3.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cdf6c4c.css",
-    "static/js/main.512d8120.js"
+    "static/css/main.ccf1ce44.css",
+    "static/js/main.32598ea3.js"
   ]
 }
