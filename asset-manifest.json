@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.9cdf6c4c.css",
-    "main.js": "/static/js/main.ac888064.js",
+    "main.js": "/static/js/main.512d8120.js",
     "static/media/landing page.png": "/static/media/landing page.0c7475c2efecede942c0.png",
+    "static/media/Devsecops.png": "/static/media/Devsecops.2002fb0f7ffe311f24c1.png",
     "static/media/cv wahib bachoua.pdf": "/static/media/cv wahib bachoua.f0f4eaf1f62b644c6266.pdf",
-    "static/media/Devsecops.png": "/static/media/Devsecops.2b3e90adb463ccf7f1e5.png",
     "static/media/SupportTicket.png": "/static/media/SupportTicket.3725001fd0ab34c445b9.png",
     "static/media/gestion des événements.png": "/static/media/gestion des événements.a216d888cf0d08165137.png",
     "static/media/avatar-modified.png": "/static/media/avatar-modified.b3d955345a14e1ec6590.png",
@@ -56,10 +56,10 @@
     "static/media/pytest.svg": "/static/media/pytest.9f9e1bb89bf1947bc7949cb585c225f5.svg",
     "static/media/Angular.svg": "/static/media/Angular.f1538c566efde73b8aaf2142712338ec.svg",
     "main.9cdf6c4c.css.map": "/static/css/main.9cdf6c4c.css.map",
-    "main.ac888064.js.map": "/static/js/main.ac888064.js.map"
+    "main.512d8120.js.map": "/static/js/main.512d8120.js.map"
   },
   "entrypoints": [
     "static/css/main.9cdf6c4c.css",
-    "static/js/main.ac888064.js"
+    "static/js/main.512d8120.js"
   ]
 }
