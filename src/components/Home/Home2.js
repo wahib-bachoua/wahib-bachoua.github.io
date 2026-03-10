@@ -25,7 +25,7 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  (Node.js, Spring Boot, Next.js and Angular).{" "}
+                  (Node.js, Next.js, React.js and Angular).{" "}
                 </b>
               </i>
                Passionate about  

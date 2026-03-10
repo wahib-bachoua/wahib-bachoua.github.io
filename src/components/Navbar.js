@@ -5,13 +5,12 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+import { FaGithub } from "react-icons/fa";
 
 //import { CgFileDocument } from "react-icons/cg";
 
@@ -101,14 +100,13 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item className="fork-btn">
-              <Button
+            <Nav.Item >
+              <Button 
                 href="https://github.com/wahib-bachoua/"
                 target="_blank"
-                className="fork-btn-inner"
+                className="fa fa-github"
               >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+                <FaGithub style={{ fontSize: "1.2em" }} /> Github
               </Button>
             </Nav.Item>
           </Nav>

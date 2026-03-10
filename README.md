@@ -16,7 +16,6 @@
 
 </center>
 
-
 ## Built With
 
 My personal <a href="https://wahib-bachoua.github.io" target="_blank">portfolio </a> which features some of my github projects as well as my resume and technical skills.<br/>
@@ -38,17 +37,37 @@ This project was built using these technologies.
 
 ## Getting Started
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+Clone down this repository. You will need `node.js`, `pnpm` and `git` installed globally on your machine.
+
+### Prerequisites
+
+Install pnpm globally if you haven't already:
+
+```bash
+npm install -g pnpm
+```
 
 ## 🛠 Installation and Setup Instructions
 
-1. Installation: `npm install`
+1. Installation: `pnpm install`
 
-2. In the project directory, you can run: `npm start`
+2. Fix react-parallax-tilt compatibility:
+
+   ```bash
+   pnpm install react-parallax-tilt@1.7.42 --save-exact
+   ```
+
+3. In the project directory, you can run: `pnpm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
+
+### Other Commands
+
+- `pnpm build` - Creates a production build
+- `pnpm test` - Runs tests
+- `pnpm deploy` - Deploys to GitHub Pages
 
 ## Usage Instructions
 

@@ -738,25 +738,27 @@ button:focus {
     transform: scale(1);
   }
 }
-
-.fork-btn {
+.github-btn {
+  background-color: black !important;
+  color: white !important;
+  border: 1px solid black !important;
+  padding: 1rem 1.2rem !important;
+  border-radius: 25px !important; /* Coins très arrondis */
   font-size: 1.1em !important;
-  padding-top: 10px !important;
-}
-
-.fork-btn-inner {
-  line-height: 1.4em !important;
-  background-color: #934cce5e !important;
-  padding: 0.25rem 1.1rem !important;
+  font-weight: 500 !important;
   vertical-align: middle !important;
-  text-align: center !important;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Espace entre l'icône et le texte */
+  transition: all 0.3s ease-out 0s !important;
 }
 
-.fork-btn-inner:hover {
+.github-btn:hover {
+  background-color: #333 !important; /* Un gris foncé au survol */
+  color: white !important;
+  border-color: #333 !important;
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
 }
-.fork-btn-inner::after {
+.github-btn::after {
   display: none !important;
 }
